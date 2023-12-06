@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Pavanpatil0744_react_pipeline_demo_1701862740351-pr-trigger-input-set
+  identifier: Build_Pavanpatil0744_react_pipeline_demo_1701862740351prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythonci
+  pipeline:
+    identifier: Build_Pavanpatil0744_react_pipeline_demo_1701862740351
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
